@@ -22,7 +22,6 @@
 		"build": "bun build src/index.ts --outdir dist --target browser --minify"
 	},
 	"dependencies": {
-		"@hookform/resolvers": "^5.0.1",
 		"react-hook-form": "^7.55.0"
 	},
 	"repository": {

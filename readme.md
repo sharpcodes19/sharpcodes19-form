@@ -19,19 +19,19 @@ A lightweight, reusable React + TypeScript form component library built with [Bu
 - 📦 Make sure to install [HeroUI](https://www.heroui.com/docs/guide/installation) first.
 
 ```bash
-npm install sharpcodes19-form
+npm install sharpcodes19-form @hookform/resolvers zod @hookform/resolvers
 ```
 
 or
 
 ```bash
-yarn add sharpcodes19-form
+yarn add sharpcodes19-form @hookform/resolvers zod @hookform/resolvers
 ```
 
 or
 
 ```bash
-bun add sharpcodes19-form
+bun add sharpcodes19-form @hookform/resolvers zod @hookform/resolvers
 ```
 
 ---
@@ -42,6 +42,7 @@ bun add sharpcodes19-form
 import { Form } from "react-hook-form"
 import { InputControllerProps } from "sharpcodes19-form"
 import { z } from "zod"
+import { zodResolver } from "@hookform/resolvers/zod"
 
 const formValues = z.object({
   username: z.string().min(1, "Required")
