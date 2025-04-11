@@ -22,6 +22,18 @@ A lightweight, reusable React + TypeScript form component library built with [Bu
 npm install sharpcodes19-form
 ```
 
+or
+
+```bash
+yarn add sharpcodes19-form
+```
+
+or
+
+```bash
+bun add sharpcodes19-form
+```
+
 ---
 
 ## 🚀 Basic Usage
