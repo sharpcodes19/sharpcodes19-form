@@ -32,5 +32,8 @@
   "bugs": {
     "url": "https://github.com/sharpcodes19/sharpcodes19-form/issues"
   },
-  "homepage": "https://github.com/sharpcodes19/sharpcodes19-form#readme"
+  "homepage": "https://github.com/sharpcodes19/sharpcodes19-form#readme",
+	"publishConfig": {
+		"access": "public"
+	}
 }
