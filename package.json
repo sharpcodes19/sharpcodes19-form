@@ -35,5 +35,6 @@
 	"publishConfig": {
 		"access": "public"
 	},
-	"private": false
+	"private": false,
+	"keywords": ["@hookform/resolvers", "react-hook-form", "heroui", "zod", "form handler"]
 }
