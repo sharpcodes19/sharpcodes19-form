@@ -1,6 +1,6 @@
 {
 	"name": "sharpcodes19-form",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "react-hook-forms support for heroui",
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
@@ -19,7 +19,7 @@
 		"typescript": "^5"
 	},
 	"scripts": {
-		"build": "bun build src/index.ts --outdir dist --target browser --minify"
+		"build": "rm -rf build && bun build src/index.ts --outdir dist --target browser --minify"
 	},
 	"dependencies": {
 		"react-hook-form": "^7.55.0"
@@ -36,5 +36,5 @@
 		"access": "public"
 	},
 	"private": false,
-	"keywords": ["@hookform/resolvers", "react-hook-form", "heroui", "zod", "form handler"]
+	"keywords": ["@hookform/resolvers", "react-hook-form", "heroui", "zod", "form handler", "typescript"]
 }
