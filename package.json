@@ -1,6 +1,6 @@
 {
 	"name": "sharpcodes19-form",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"description": "react-hook-forms support for heroui",
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
