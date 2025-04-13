@@ -25,7 +25,8 @@
 		"typescript": "^5"
 	},
 	"scripts": {
-		"build": "tsc"
+		"build": "tsc",
+		"prepublish": "rm -rf dist && yarn build"
 	},
 	"dependencies": {
 		"react-hook-form": "^7.55.0"
