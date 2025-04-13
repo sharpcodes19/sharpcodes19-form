@@ -1,6 +1,6 @@
 # 🔥 sharpcodes19-form
 
-A lightweight, reusable React + TypeScript form component library built with [Bun](https://bun.sh). Publish-ready for public use via npm.
+A lightweight, reusable React + TypeScript form component library.
 
 ---
 
@@ -9,7 +9,6 @@ A lightweight, reusable React + TypeScript form component library built with [Bu
 - ⚛️ Built with React and TypeScript
 - 💅 Styled with [HeroUI](https://www.heroui.com/)
 - 🎯 Tree-shakable and typed
-- ⚡ Fast builds with Bun
 - 📦 Easy to use in any React app
 
 ---
