@@ -12,7 +12,7 @@ export type InputControllerProps = Omit<InputProps, "type"> & {
 export const InputFormController = <T extends FieldValues, K extends Path<T>> ({ name, control, ...props }: {
   name: K
   control: Control<T>,
-} & Pick<HTMLElement, "className"> & Omit<InputControllerProps, "value" | "onValueChange">) => {
+} & Partial<Pick<HTMLElement, "className"> & Omit<InputControllerProps, "value" | "onValueChange">>) => {
   return <FormController control={control} name={name}>
     {
       ({ field: { onChange, ...field }, fieldState }) =>
