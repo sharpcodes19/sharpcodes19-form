@@ -16,6 +16,9 @@ export const PasswordController = (props: Omit<InputControllerProps, "type" | "e
 
   return <InputController 
     ref={ref}
+    size="sm"
+    variant="flat"
+    color="default"
     {...props}
     type={isVisible? "text" : "password"}
     endContent={

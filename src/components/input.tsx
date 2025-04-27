@@ -6,7 +6,7 @@ import { createElement } from "react"
 import { PasswordController as PasswordControllerClientSide } from "./input.client"
 
 export type InputControllerProps = Omit<InputProps, "type"> & {
-	type?: "password" | "text"
+  type?: "password" | "text"
 }
 // prettier-ignore
 export const InputFormController = <T extends FieldValues, K extends Path<T>> ({ name, control, ...props }: {
@@ -34,10 +34,10 @@ export const InputFormController = <T extends FieldValues, K extends Path<T>> ({
 export const InputController = ({ classNames, ...rest }: InputControllerProps) => {
   return (
     <Input
+      defaultValue=""
+      size="sm"
       variant="flat"
       color="default"
-      size="sm"
-      defaultValue=""
       classNames={{
         ...classNames,
         inputWrapper: cn("dark:!bg-light/20", classNames?.inputWrapper),
